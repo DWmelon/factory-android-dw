@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/index_bar_bg"></solid>
+            <size
+                android:width="@dimen/location_index_circle_w"
+                android:height="@dimen/location_index_circle_w"></size>
+        </shape>
+
+    </item>
+
+</layer-list>

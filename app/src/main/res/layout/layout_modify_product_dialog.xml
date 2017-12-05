@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:background="@drawable/bg_corner_primary_light"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_dialog_title"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:layout_marginTop="@dimen/margin_10"
+                android:paddingLeft="@dimen/margin_10"
+                android:text="修改信息"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/first_title_color"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_size"
+                android:background="@color/line_color"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_10"
+                android:text="产品名称"
+                android:textSize="16sp"
+                android:textColor="@color/first_title_color"/>
+            <EditText
+                android:id="@+id/et_modify_name"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="@dimen/margin_10"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="start"
+                android:paddingLeft="@dimen/margin_5"
+                android:layout_below="@+id/tv_dialog_title"
+                android:background="@drawable/bg_corner_white_line_gray2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_10"
+                android:text="价格"
+                android:textSize="16sp"
+                android:textColor="@color/first_title_color"/>
+            <EditText
+                android:id="@+id/et_modify_price"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="@dimen/margin_10"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:singleLine="true"
+                android:paddingLeft="@dimen/margin_5"
+                android:layout_below="@+id/tv_dialog_title"
+                android:background="@drawable/bg_corner_white_line_gray2"/>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_add_score_dialog_bottom_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:id="@+id/tv_cancel"
+                android:layout_height="50dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/bg_corner_primary_bl"
+                android:gravity="center"
+                android:text="@string/no"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/tv_add"
+                android:layout_height="50dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/bg_corner_primary_br"
+                android:gravity="center"
+                android:layout_marginLeft="-1dp"
+                android:text="@string/ok"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

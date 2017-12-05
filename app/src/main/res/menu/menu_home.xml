@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:res="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_add"
+        res:showAsAction="always"
+        android:icon="@drawable/icon_add"
+        android:title="添加"/>
+
+    <item
+        android:id="@+id/action_update"
+        res:showAsAction="never"
+        android:icon="@drawable/icon_update"
+        android:title="更新"/>
+
+
+</menu>

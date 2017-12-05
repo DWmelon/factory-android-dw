@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yongheng.widgets.TopLineLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/tab_height"
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/margin_min"
+    android:paddingBottom="@dimen/margin_min">
+
+    <LinearLayout
+        android:id="@+id/ll_tab_item_home"
+        style="@style/TabLayout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <com.yongheng.widgets.RedPointImageView
+            android:id="@+id/iv_tab_item_home"
+            style="@style/TabImageView"
+
+            android:src="@drawable/icon_business" />
+
+        <TextView
+            style="@style/TabTextView"
+            android:text="@string/tab_item_name_home"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_tab_item_information"
+        style="@style/TabLayout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <com.yongheng.widgets.RedPointImageView
+            android:id="@+id/iv_tab_item_information"
+            style="@style/TabImageView"
+            android:paddingTop="@dimen/select_line_w"
+            android:paddingBottom="@dimen/select_line_w"
+            android:src="@drawable/icon_product" />
+
+        <TextView
+            style="@style/TabTextView"
+            android:text="@string/tab_item_name_information"/>
+    </LinearLayout>
+
+
+    <!--<include-->
+    <!--android:layout_weight="1"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="match_parent"-->
+    <!--layout="@layout/item_tab_layout_nav" />-->
+
+    <!--
+    <include
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        layout="@layout/item_tab_layout_tools" />
+    -->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/ll_tab_item_my"-->
+        <!--style="@style/TabLayout"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1"-->
+        <!--android:gravity="center">-->
+
+        <!--<com.gaokaozhiyuan.widgets.image.RedPointImageView-->
+            <!--android:id="@+id/iv_tab_item_my"-->
+            <!--style="@style/TabImageView"-->
+            <!--android:src="@drawable/selector_tab_me" />-->
+
+        <!--<TextView-->
+            <!--style="@style/TabTextView"-->
+            <!--android:text="@string/tab_item_name_my"-->
+            <!--android:gravity="center_horizontal"/>-->
+    <!--</LinearLayout>-->
+
+
+</com.yongheng.widgets.TopLineLinearLayout>

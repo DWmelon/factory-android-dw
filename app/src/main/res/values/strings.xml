@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">永亨</string>
+
+    <string name="business_remark">备注：%1$s</string>
+
+    <string name="ok">确定</string>
+    <string name="finish">完成</string>
+    <string name="no">取消</string>
+    <string name="dialog_title">提示</string>
+
+    <string name="progress_tip">正在加载...请稍等。</string>
+
+
+    <string name="update_success">修改成功</string>
+
+    <!-- business-->
+    <string name="business_delete_tip">是否删除该客户</string>
+
+    <!-- product-->
+    <string name="product_delete_tip">是否删除该产品</string>
+
+    <string name="tab_item_name_home">客户</string>
+    <string name="tab_item_name_information">产品</string>
+
+</resources>

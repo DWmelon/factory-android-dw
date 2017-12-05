@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="primary_color">#412f1f</color>
+
+    <color name="common_bg">#d5c59f</color>
+
+    <!--37474f 373c42 2d3351-->
+    <color name="primary_light_color">#ffffcc</color>
+    <color name="primary_gray">#878f94</color>
+    <color name="primary_color_1">#b76f40</color>
+
+
+    <color name="primary_line">#2c383f</color>
+    <color name="primary_line_gray">#aaaaaa</color>
+
+    <color name="primary_black">#000000</color>
+    <color name="primary_white">#ffffff</color>
+
+    <color name="primary_pink">#ff6091</color>
+
+    <color name="primary_selected_color">#F2F2F2</color>
+
+    <color name="sub_title">#3d3d3d</color>
+
+    <color name="circular_bg">#6091a3</color>
+    <color name="circular_bg_2">#97dbec</color>
+    <color name="circular_bg_3">#6091a3</color>
+
+
+    <color name="white">#ffffff</color>
+    <color name="white_50">#88ffffff</color>
+    <color name="circle_background">#f2f2f2</color>
+    <color name="line_background">#cccccc</color>
+    <color name="ampm_text_color">#8c8c8c</color>
+    <color name="done_text_color_normal">#333333</color>
+    <color name="done_text_color_disabled">#CCCCCC</color>
+    <color name="numbers_text_color">#8c8c8c</color>
+
+    <color name="transparent_black">#7F000000</color>
+    <color name="blue">#33b5e5</color>
+    <color name="darker_blue">#0099CC</color>
+    <color name="date_picker_text_normal">#FF999999</color>
+
+    <color name="calendar_header">#999999</color>
+    <color name="date_picker_view_animator">#f2f2f2</color>
+    <color name="calendar_selected_date_text">#FFD1D2D4</color>
+
+    <color name="green">#00ff00</color>
+    <color name="red">#ffff0000</color>
+
+    <!-- material dialog-->
+    <color name="card_background">#ffffff</color>
+    <color name="card_shadow">#10000000</color>
+    <color name="lite_blue">#ff359ff2</color>
+    <color name="transparent">#00000000</color>
+    <color name="window_background">#00000000</color>
+
+    <!-- ring -->
+    <color name="primary_ring">#009999</color>
+
+    <!-- left_drawer -->
+    <color name="left_drawer_text_color">#425159</color>
+
+    <color name="line_color">#eeeeee</color>
+    <color name="text_content_color">#39394a</color>
+    <color name="select_gray_text_color_b5">#b5b5b5</color>
+    <!-- 圆角borders-->
+    <color name="corner_line_gray1">#cac8d4</color>
+    <color name="corner_line_gray2">#E7E7E7</color>
+    <color name="sub_title_color">#9E9EAE</color>
+    <color name="first_title_color">#39394A</color>
+    <color name="first_title_color_light">#5D5F5F</color>
+
+    <color name="index_bar_bg">#ddF2F2F2</color>
+
+    <color name="progress_color">#ff359ff2</color>
+    <color name="temp_color1">#20F5F5F5</color>
+    <color name="temp_color3">#F5F5F5</color>
+
+    <color name="heat_chart_blue_main">#2E82FF</color>
+    <color name="heat_chart_blue_line">#006BEE</color>
+    <color name="heat_chart_blue_circular">#00AFF0</color>
+    <color name="heat_chart_blue_text">#00AFF0</color>
+
+    <color name="heat_chart_green_main">#24BB50</color>
+    <color name="heat_chart_green_line">#24BB50</color>
+    <color name="heat_chart_green_circular">#79CD1C</color>
+    <color name="heat_chart_green_text">#79CD1C</color>
+
+    <color name="heat_chart_red_main">#FF5D02</color>
+    <color name="heat_chart_red_line">#FF3D00</color>
+    <color name="heat_chart_red_circular">#FE7616</color>
+    <color name="heat_chart_red_text">#FE7616</color>
+
+    <color name="tab_item_tv_normal">#828282</color>
+
+</resources>
